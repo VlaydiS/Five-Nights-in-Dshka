@@ -1036,3 +1036,422 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2023.10.08-02.25.04:331][  0]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Face_Archetype) ...
 [2023.10.08-02.25.05:069][  0]LogSkeletalMesh: Display: /MetaHuman/IdentityTemplate/Face_Archetype.Face_Archetype ComputeTangents MikkTSpace function: Compute a zero length normal vector.
 [2023.10.08-02.25.05:185][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.10.08-02.25.12:082][  0]LogSkeletalMesh: Display: /MetaHuman/IdentityTemplate/Face_Archetype.Face_Archetype ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2023.10.08-02.25.12:953][  0]LogSkeletalMesh: Built Skeletal Mesh [8.69s] /MetaHuman/IdentityTemplate/Face_Archetype.Face_Archetype
+[2023.10.08-02.25.13:083][  0]LogCollectionManager: Loaded 0 collections in 0.000805 seconds
+[2023.10.08-02.25.13:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Saved/Collections/' took 0.00s
+[2023.10.08-02.25.13:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/Developers/zeus2/Collections/' took 0.00s
+[2023.10.08-02.25.13:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/Collections/' took 0.00s
+[2023.10.08-02.25.13:369][  0]LogEngine: Initializing Engine...
+[2023.10.08-02.25.13:374][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.10.08-02.25.13:536][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.10.08-02.25.13:543][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-02.25.13:543][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-02.25.13:548][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.10.08-02.25.13:549][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.10.08-02.25.13:549][  0]LogInit: Texture streaming: Enabled
+[2023.10.08-02.25.13:560][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.1-28051148+++UE5+Release-5.3
+[2023.10.08-02.25.13:566][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.10.08-02.25.13:575][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.10.08-02.25.13:576][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.10.08-02.25.13:576][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-02.25.13:577][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-02.25.13:577][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-02.25.13:578][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-02.25.13:578][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-02.25.13:578][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-02.25.13:583][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-02.25.13:610][  0]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2023.10.08-02.25.13:610][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-02.25.13:612][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-02.25.13:612][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-02.25.13:612][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.10.08-02.25.13:612][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.08-02.25.13:614][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.08-02.25.13:614][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.10.08-02.25.13:614][  0]LogInit: FAudioDevice initialized with ID 1.
+[2023.10.08-02.25.13:614][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.10.08-02.25.13:614][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2023.10.08-02.25.13:626][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.10.08-02.25.13:628][  0]LogInit: Undo buffer set to 32 MB
+[2023.10.08-02.25.13:628][  0]LogInit: Transaction tracking system initialized
+[2023.10.08-02.25.13:661][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.08-02.25.13:753][  0]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2023.10.08-02.25.13:754][  0]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2023.10.08-02.25.13:755][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2023.10.08-02.25.13:755][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2023.10.08-02.25.13:758][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.002513 seconds (Found 0 uncontrolled assets)
+[2023.10.08-02.25.13:762][  0]BlueprintLog: New page: Editor Load
+[2023.10.08-02.25.13:831][  0]LocalizationService: Localization service is disabled
+[2023.10.08-02.25.13:847][  0]TimingProfiler: Initialize
+[2023.10.08-02.25.13:847][  0]TimingProfiler: OnSessionChanged
+[2023.10.08-02.25.13:847][  0]LoadingProfiler: Initialize
+[2023.10.08-02.25.13:847][  0]LoadingProfiler: OnSessionChanged
+[2023.10.08-02.25.13:847][  0]NetworkingProfiler: Initialize
+[2023.10.08-02.25.13:847][  0]NetworkingProfiler: OnSessionChanged
+[2023.10.08-02.25.13:847][  0]MemoryProfiler: Initialize
+[2023.10.08-02.25.13:847][  0]MemoryProfiler: OnSessionChanged
+[2023.10.08-02.25.13:982][  0]LogAutoReimportManager: Warning: Unable to watch directory C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/ as it will conflict with another watching C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/.
+[2023.10.08-02.25.13:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/' took 0.00s
+[2023.10.08-02.25.14:035][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.10.08-02.25.14:841][  0]LogWindows: Attached monitors:
+[2023.10.08-02.25.14:841][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.10.08-02.25.14:841][  0]LogWindows: Found 1 attached monitors.
+[2023.10.08-02.25.14:841][  0]LogWindows: Gathering driver information using Windows Setup API
+[2023.10.08-02.25.14:863][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.10.08-02.25.14:865][  0]LogUnrealEdMisc: Loading editor; pre map load, took 23.707
+[2023.10.08-02.25.14:865][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.08-02.25.14:865][  0]LightingResults: New page: Lighting Build
+[2023.10.08-02.25.14:867][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-02.25.14:867][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-02.25.14:867][  0]MapCheck: New page: Map Check
+[2023.10.08-02.25.14:867][  0]LightingResults: New page: Lighting Build
+[2023.10.08-02.25.14:876][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-02.25.14:880][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.10.08-02.25.14:911][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.10.08-02.25.14:911][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-02.25.14:912][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-02.25.14:912][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.10.08-02.25.14:912][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-02.25.14:912][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-02.25.14:912][  0]LogWorldPartition: UWorldPartition::Initialize : World = Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-02.25.14:933][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2023.10.08-02.25.15:100][  0]LogContentBundle: [Untitled_1(Standalone)] Creating new contrainer.
+[2023.10.08-02.25.15:100][  0]LogWorldPartition: Display: WorldPartition initialize took 188 ms
+[2023.10.08-02.25.15:472][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.08-02.25.15:476][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.08-02.25.15:476][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.08-02.25.15:477][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,505ms to complete.
+[2023.10.08-02.25.15:482][  0]LogUnrealEdMisc: Total Editor Startup Time, took 24.325
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: ================================================
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Total job queries 131, among them cache hits 0 (0.00%)
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Tracking 131 distinct input hashes that result in 48 distinct outputs (36.64%)
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: RAM used: 1,37 MiB of 1,60 GiB budget. Usage: 0.08%
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Shaders Compiled: 131
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Jobs assigned 131, completed 131 (100%)
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Average time worker was idle: 0.10 s
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 0.38 s, longest 2.64 s
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Job execution time: average 1.86 s, max 2.56 s
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 2.24 s, max 2.95
+[2023.10.08-02.25.15:482][  0]LogShaderCompilers: Display: Shader code size: average 58,464 KiB, min 3,602 KiB, max 75,535 KiB
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.32 s
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Jobs were issued in 29 batches (only local compilation was used), average 4.52 jobs/batch
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Average processing rate: 39.47 jobs/sec
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Total thread time: 25,696 s
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Total thread preprocess time: 2,243 s
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Percentage time preprocessing: 8.73%
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Effective parallelization: 7.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.29 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    2 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    4 times, average 0.29 sec, max 0.34 sec, min 0.23 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 0.29 sec, max 0.34 sec, min 0.24 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    4 times, average 0.29 sec, max 0.34 sec, min 0.20 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.42% of total time (compiled    7 times, average 0.20 sec, max 0.29 sec, min 0.14 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.02% of total time (compiled    7 times, average 0.18 sec, max 0.24 sec, min 0.14 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.49% of total time (compiled    4 times, average 0.29 sec, max 0.34 sec, min 0.23 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy - 4.45% of total time (compiled    4 times, average 0.29 sec, max 0.34 sec, min 0.20 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.44% of total time (compiled    7 times, average 0.16 sec, max 0.24 sec, min 0.14 sec)
+[2023.10.08-02.25.15:483][  0]LogShaderCompilers: Display: ================================================
+[2023.10.08-02.25.15:541][  0]LogAssetRegistry: Display: Asset registry cache written as 19.1 MiB to C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Intermediate/CachedAssetRegistry_*.bin
+[2023.10.08-02.25.15:584][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.15:592][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.15:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.15:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.15:637][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:637][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:637][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:638][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:638][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:638][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:638][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:638][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:638][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:638][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:639][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:639][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:639][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:639][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:639][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:639][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:639][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:639][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:639][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.25.15:640][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.10.08-02.25.15:698][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.10.08-02.25.15:721][  0]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2023.10.08-02.25.15:992][  0]LogStall: Startup...
+[2023.10.08-02.25.15:994][  0]LogStall: Startup complete.
+[2023.10.08-02.25.15:998][  0]LogLoad: (Engine Initialization) Total time: 24.84 seconds
+[2023.10.08-02.25.15:998][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.10.08-02.25.16:048][  0]LogAssetRegistry: AssetRegistryGather time 0.0690s: AssetDataDiscovery 0.0179s, AssetDataGather 0.0186s, StoreResults 0.0325s.
+[2023.10.08-02.25.16:065][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2023.10.08-02.25.16:199][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.10.08-02.25.16:253][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2023.10.08-02.25.16:255][  1]Running Python start-up script 'A:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.021126 secs
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.17:009][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.27:332][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-02.25.27:336][151]LogContentBundle: [Untitled_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-02.25.27:336][151]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+[2023.10.08-02.25.29:524][151]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 2.18 sec
+[2023.10.08-02.25.29:623][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-02.25.29:733][151]PIE: New page: PIE session: Untitled_1 (8 окт. 2023 г., 22:25:29)
+[2023.10.08-02.25.29:733][151]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2023.10.08-02.25.29:735][151]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.10.08-02.25.29:792][152]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2023.10.08-02.25.29:799][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008530s)
+[2023.10.08-02.25.29:799][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008573s)
+[2023.10.08-02.25.29:839][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.08-02.25.29:840][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-02.25.29:840][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-02.25.29:840][152]LogAIModule: Creating AISystem for world Untitled_1
+[2023.10.08-02.25.30:045][152]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-02.25.30:045][152]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-02.25.30:045][152]LogWorldPartition: UWorldPartition::Initialize : World = Untitled_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-02.25.30:045][152]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-02.25.30:048][152]LogContentBundle: [Untitled_1(Standalone)] Creating new contrainer.
+[2023.10.08-02.25.30:048][152]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 190 ms)
+[2023.10.08-02.25.30:048][152]LogPlayLevel: PIE: World Init took: (0.208026s)
+[2023.10.08-02.25.30:048][152]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-02.25.30:048][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-02.25.30:048][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-02.25.30:048][152]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-02.25.30:048][152]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-02.25.30:048][152]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-02.25.30:051][152]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-02.25.30:068][152]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2023.10.08-02.25.30:068][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-02.25.30:068][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-02.25.30:068][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-02.25.30:069][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.10.08-02.25.30:069][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.10.08-02.25.30:072][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.10.08-02.25.30:072][152]LogInit: FAudioDevice initialized with ID 2.
+[2023.10.08-02.25.30:072][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.10.08-02.25.30:072][152]LogAudio: Display: Audio Device (ID: 2) registered with world 'Untitled_1'.
+[2023.10.08-02.25.30:072][152]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.08-02.25.30:165][152]LogLoad: Game class is 'GameModeBase'
+[2023.10.08-02.25.30:166][152]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2023.10.08-12.25.30
+[2023.10.08-02.25.30:236][152]LogWorld: Bringing up level for play took: 0.070945
+[2023.10.08-02.25.30:824][152]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.10.08-02.25.30:824][152]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.10.08-02.25.30:862][152]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2023.10.08-02.25.31:126][152]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YQ/3SACEP11KP3LBBZUIC1NN0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.10.08-02.25.31:126][152]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/MC/T90MSNLC1N3FYSDD8DJNV6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.08-02.25.31:126][152]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/M8/GQIMTIO02VU16EAMBW9L76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.08-02.25.31:126][152]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/EU/63CUG82HPJ7AU9XI6H86US.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.08-02.25.31:186][152]PIE: Server logged in
+[2023.10.08-02.25.31:187][152]PIE: Play in editor total start time 3,851 seconds.
+[2023.10.08-02.25.31:329][152]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.31:908][155]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.32:671][192]SourceControl: Error: fatal: Invalid path '/Memory': No such file or directory
+[2023.10.08-02.25.43:857][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.43:857][514]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2023.10.08-02.25.43:867][514]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-02.25.43:867][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-02.25.43:867][514]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2023.10.08-02.25.43:883][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-02.25.43:898][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-02.25.43:903][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.25.43:913][514]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.08-02.25.43:913][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.08-02.25.43:915][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.08-02.25.43:941][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.08-02.25.43:975][515]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.44:576][576]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.55:790][848]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.25.56:749][963]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.14:118][975]Cmd: DELETE
+[2023.10.08-02.26.14:129][975]Cmd: ACTOR DELETE
+[2023.10.08-02.26.14:321][975]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2023.10.08-02.26.14:363][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.10.08-02.26.14:364][975]LogEditorActor: Deleted 1 Actors (0.147 secs)
+[2023.10.08-02.26.14:431][977]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.14:456][980]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka'
+[2023.10.08-02.26.15:447][ 99]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka'
+[2023.10.08-02.26.15:573][109]Cmd: TRANSACTION UNDO
+[2023.10.08-02.26.15:592][109]LogEditorTransaction: Undo Delete Elements
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.18:152][339]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.26.26:640][344]LogSlate: Took 0.013573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.08-02.26.56:591][  1]LogDerivedDataCache: C:/Users/zeus2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.069 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2868 files in 4007 folders with total size 166 MiB.
+[2023.10.08-02.27.11:808][791]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Collapse01...
+[2023.10.08-02.27.11:820][791]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01: Chunk0=28 bytes, Chunk1-N=256k
+[2023.10.08-02.27.16:814][ 81]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Collapse02...
+[2023.10.08-02.27.16:826][ 81]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: Chunk0=28 bytes, Chunk1-N=256k
+[2023.10.08-02.27.16:827][ 81]LogDerivedDataCache: C:/Users/zeus2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/zeus2/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacySTREAMEDAUDIO/26/77/f0d022b41521219a75a7cddba0743326daed.udd from 'Unknown SoundWave'.
