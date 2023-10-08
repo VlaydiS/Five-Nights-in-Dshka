@@ -1086,3 +1086,177 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2023.10.08-02.23.50:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Saved/Collections/' took 0.00s
 [2023.10.08-02.23.50:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/Developers/zeus2/Collections/' took 0.00s
 [2023.10.08-02.23.50:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/Collections/' took 0.00s
+[2023.10.08-02.23.51:059][  0]LogEngine: Initializing Engine...
+[2023.10.08-02.23.51:077][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.10.08-02.23.51:246][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.10.08-02.23.51:250][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-02.23.51:250][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-02.23.51:256][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.10.08-02.23.51:257][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.10.08-02.23.51:257][  0]LogInit: Texture streaming: Enabled
+[2023.10.08-02.23.51:269][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.1-28051148+++UE5+Release-5.3
+[2023.10.08-02.23.51:274][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.10.08-02.23.51:285][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.10.08-02.23.51:285][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.10.08-02.23.51:285][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.10.08-02.23.51:286][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-02.23.51:286][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-02.23.51:287][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-02.23.51:287][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-02.23.51:287][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-02.23.51:287][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-02.23.51:287][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-02.23.51:291][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-02.23.51:318][  0]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2023.10.08-02.23.51:319][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-02.23.51:321][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-02.23.51:321][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-02.23.51:321][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.10.08-02.23.51:321][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.08-02.23.51:322][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.08-02.23.51:322][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.10.08-02.23.51:322][  0]LogInit: FAudioDevice initialized with ID 1.
+[2023.10.08-02.23.51:323][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.10.08-02.23.51:323][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2023.10.08-02.23.51:334][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.10.08-02.23.51:336][  0]LogInit: Undo buffer set to 32 MB
+[2023.10.08-02.23.51:336][  0]LogInit: Transaction tracking system initialized
+[2023.10.08-02.23.51:365][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.08-02.23.51:372][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.10.08-02.23.51:491][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2023.10.08-02.23.51:491][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2023.10.08-02.23.51:494][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.002755 seconds (Found 0 uncontrolled assets)
+[2023.10.08-02.23.51:499][  0]BlueprintLog: New page: Editor Load
+[2023.10.08-02.23.51:572][  0]LocalizationService: Localization service is disabled
+[2023.10.08-02.23.51:589][  0]TimingProfiler: Initialize
+[2023.10.08-02.23.51:589][  0]TimingProfiler: OnSessionChanged
+[2023.10.08-02.23.51:589][  0]LoadingProfiler: Initialize
+[2023.10.08-02.23.51:589][  0]LoadingProfiler: OnSessionChanged
+[2023.10.08-02.23.51:589][  0]NetworkingProfiler: Initialize
+[2023.10.08-02.23.51:589][  0]NetworkingProfiler: OnSessionChanged
+[2023.10.08-02.23.51:589][  0]MemoryProfiler: Initialize
+[2023.10.08-02.23.51:589][  0]MemoryProfiler: OnSessionChanged
+[2023.10.08-02.23.51:752][  0]LogAutoReimportManager: Warning: Unable to watch directory C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/ as it will conflict with another watching C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/.
+[2023.10.08-02.23.51:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Content/' took 0.00s
+[2023.10.08-02.23.52:365][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.10.08-02.23.53:330][  0]LogWindows: Attached monitors:
+[2023.10.08-02.23.53:330][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.10.08-02.23.53:330][  0]LogWindows: Found 1 attached monitors.
+[2023.10.08-02.23.53:330][  0]LogWindows: Gathering driver information using Windows Setup API
+[2023.10.08-02.23.53:336][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2023.10.08-02.23.53:364][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.10.08-02.23.53:366][  0]LogUnrealEdMisc: Loading editor; pre map load, took 36.715
+[2023.10.08-02.23.53:366][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.08-02.23.53:366][  0]LightingResults: New page: Lighting Build
+[2023.10.08-02.23.53:368][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-02.23.53:368][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-02.23.53:368][  0]MapCheck: New page: Map Check
+[2023.10.08-02.23.53:368][  0]LightingResults: New page: Lighting Build
+[2023.10.08-02.23.53:372][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-02.23.53:377][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.10.08-02.23.53:408][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.10.08-02.23.53:408][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-02.23.53:408][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-02.23.53:408][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.10.08-02.23.53:412][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-02.23.53:412][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-02.23.53:412][  0]LogWorldPartition: UWorldPartition::Initialize : World = Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-02.23.53:601][  0]LogContentBundle: [Untitled_1(Standalone)] Creating new contrainer.
+[2023.10.08-02.23.53:601][  0]LogWorldPartition: Display: WorldPartition initialize took 189 ms
+[2023.10.08-02.23.53:926][  0]LogAssetRegistry: Display: Asset registry cache written as 19.1 MiB to C:/Users/zeus2/OneDrive/Рабочий стол/FNID/Five-Nights-in-Dshka/unreal/Intermediate/CachedAssetRegistry_*.bin
+[2023.10.08-02.23.53:966][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.08-02.23.53:971][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.08-02.23.53:972][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.08-02.23.53:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,504ms to complete.
+[2023.10.08-02.23.53:995][  0]LogUnrealEdMisc: Total Editor Startup Time, took 37.344
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: ================================================
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Total job queries 1 236, among them cache hits 0 (0.00%)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Tracking 1 236 distinct input hashes that result in 1 076 distinct outputs (87.06%)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: RAM used: 4,77 MiB of 1,60 GiB budget. Usage: 0.29%
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Shaders Compiled: 1 236
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Jobs assigned 1 236, completed 1 236 (100%)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 4.21 s, longest 5.54 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Job execution time: average 0.45 s, max 3.61 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 4.66 s, max 5.64
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Shader code size: average 5,929 KiB, min 3,859 KiB, max 110,777 KiB
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.64 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Jobs were issued in 130 batches (only local compilation was used), average 9.51 jobs/batch
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Average processing rate: 218.96 jobs/sec
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Total thread time: 16,169 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Total thread preprocess time: 1,232 s
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Percentage time preprocessing: 7.62%
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Effective parallelization: 2.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                     TInstanceNormalizationCS (compiled    5 times, average 0.22 sec, max 0.44 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                                FConvMatmulCS (compiled    4 times, average 0.03 sec, max 0.04 sec, min 0.03 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                             FConvTransposeCS (compiled   72 times, average 0.03 sec, max 0.05 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                                      FConvCS (compiled  144 times, average 0.03 sec, max 0.05 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                                      TGemmCS (compiled  360 times, average 0.02 sec, max 0.03 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                                      TGemmCS - 33.47% of total time (compiled  360 times, average 0.02 sec, max 0.03 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                                      FConvCS - 22.34% of total time (compiled  144 times, average 0.03 sec, max 0.05 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                       TElementWiseVariadicCS - 19.26% of total time (compiled  512 times, average 0.01 sec, max 0.01 sec, min 0.00 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                             FConvTransposeCS - 11.55% of total time (compiled   72 times, average 0.03 sec, max 0.05 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display:                                     TInstanceNormalizationCS - 6.83% of total time (compiled    5 times, average 0.22 sec, max 0.44 sec, min 0.01 sec)
+[2023.10.08-02.23.53:995][  0]LogShaderCompilers: Display: ================================================
+[2023.10.08-02.23.54:093][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.23.54:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.23.54:109][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.23.54:117][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-02.23.54:171][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:171][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:172][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:172][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:172][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:172][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:172][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:173][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:173][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:173][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:173][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:174][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:174][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:174][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:174][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:174][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:174][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:174][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:174][  0]LogPakFile: Initializing PakPlatformFile
+[2023.10.08-02.23.54:175][  0]LogPakFile: Display: Mounted Pak file 'A:/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.10.08-02.23.54:253][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.10.08-02.23.54:275][  0]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2023.10.08-02.23.54:550][  0]LogStall: Startup...
+[2023.10.08-02.23.54:552][  0]LogStall: Startup complete.
+[2023.10.08-02.23.54:556][  0]LogLoad: (Engine Initialization) Total time: 37.90 seconds
+[2023.10.08-02.23.54:556][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.10.08-02.23.54:600][  0]LogAssetRegistry: AssetRegistryGather time 1.8636s: AssetDataDiscovery 0.0223s, AssetDataGather 1.8091s, StoreResults 0.0323s.
+[2023.10.08-02.23.54:618][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.10.08-02.23.54:795][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.10.08-02.23.54:866][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2023.10.08-02.23.54:877][  1]Running Python start-up script 'A:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.034444 secs
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2023.10.08-02.23.55:568][  3]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
