@@ -6,7 +6,7 @@ Developed with Unreal Engine 5
 
 ------------
 
-#### **!!! Всё файлы связанные с игрой помещать в FnifFiles !!!**
+#### **!!! Всё файлы связанные с игрой помещать в FnidFiles !!!**
 
 ------------
 
@@ -25,3 +25,4 @@ Developed with Unreal Engine 5
 - **Left Ctrl/C** - Приседание
 - **Space** - Прыжок
 - **Left Shift** - Спринт
+- **E** - Взаимодействие
